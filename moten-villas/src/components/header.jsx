@@ -83,7 +83,7 @@ const ResponsiveNavbar = () => {
                         <Link
                             key={item}
                             to={`/${item.toLowerCase()}`}
-                            className="py-4 text-gray-800 hover:text-blue-500 transition duration-300 text-lg"
+                            className="py-4 text-gray-800 hover:text-orange-500 transition duration-300 text-lg"
                             onClick={handleLinkClick}
                         >
                             {item}
