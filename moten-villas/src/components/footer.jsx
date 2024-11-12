@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaWhatsapp, FaYoutube } from 'react-icons/fa';
 import Logo from '../assets/logo-mtv.png';
 import AppointmentModal from '../components/appointmentmodel';
 
@@ -60,7 +60,7 @@ It’s more than just a project; it’s a vision brought to life. At Moten Villa
           <div className="sm:mr-5 flex justify-center sm:mt-32 lg:justify-end space-x-6 text-orange-500 text-2xl">
             <a href="https://www.facebook.com/motendevelopers/" aria-label="Facebook" className="hover:text-white transition-colors"><FaFacebookF /></a>
             <a href="https://www.instagram.com/motendevelopers/?hl=en" aria-label="Instagram" className="hover:text-white transition-colors"><FaInstagram /></a>
-            <a href="#" aria-label="LinkedIn" className="hover:text-white transition-colors"><FaLinkedinIn /></a>
+            <a href="https://wa.me/+923208271406" aria-label="WhatsApp" className="hover:text-white transition-colors"><FaWhatsapp /></a>
             <a href="https://www.youtube.com/@motendevelopers9848" aria-label="YouTube" className="hover:text-white transition-colors"><FaYoutube /></a>
           </div>
         </div>
