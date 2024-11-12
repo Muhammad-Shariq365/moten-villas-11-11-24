@@ -14,8 +14,8 @@ const VideoCards = () => {
     "https://www.youtube.com/embed/ERpvs6oH6E4",
     "https://www.youtube.com/embed/2NyGqh6E4vI",
     "https://www.youtube.com/embed/60DmIlpL0n0",
-    "https://www.youtube.com/embed/0DyrRx-qSwA",
-    "https://www.youtube.com/embed/TMu2tmCVCLc"
+    "https://www.youtube.com/embed/0DyrRx-qSwA"
+  
 
     
  
