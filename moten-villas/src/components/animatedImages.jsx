@@ -158,7 +158,7 @@ const AnimatedImages = () => {
             <h1 className="animated-heading text-center">WHY CHOOSE US?</h1>
           </div>
           <p className="text-gray-600 leading-relaxed text-center mt-4" style={{ fontSize: 'clamp(1rem, 2.5vw, 1.25rem)' }}>
-            Moten Villas has diversified experience in infrastructure, interior design, value engineering, and project management. With over 12 years of experience, we build lifetime relationships with our clients through our services, under the supervision of professionals.
+            Moten Villas has diversified experience in infrastructure, interior design, value engineering, and project management. With over 17 years of experience, we build lifetime relationships with our clients through our services, under the supervision of professionals.
           </p>
         </div>
 
