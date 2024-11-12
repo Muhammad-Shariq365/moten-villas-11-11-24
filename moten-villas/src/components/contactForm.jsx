@@ -88,7 +88,7 @@ const ContactForm = () => {
   </div>
 
   <div className="flex space-x-4 mt-6 justify-center sm:justify-start">
-    <a href="https://wa.me/+92 320 8271406" target="_blank" rel="noopener noreferrer">
+    <a href="https://wa.me/+923208271406" target="_blank" rel="noopener noreferrer">
       <FaWhatsapp className="text-green-500 hover:text-green-600 transition-transform transform hover:scale-110" size="clamp(25px, 3vw, 35px)" />
     </a>
     <a href="https://www.facebook.com/motendevelopers/" target="_blank" rel="noopener noreferrer">
