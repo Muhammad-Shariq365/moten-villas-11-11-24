@@ -75,7 +75,7 @@ const ContactForm = () => {
     <RiPhoneFill className="text-orange-500 w-8 h-8 my-auto" />
     <div>
       <p className="font-semibold text-gray-700 text-lg">Phone:</p>
-      <p className="text-gray-600 text-base">0320 8271406</p>
+      <p className="text-gray-600 text-base">0320-8271405 || 0320 8271406</p>
     </div>
   </div>
 
