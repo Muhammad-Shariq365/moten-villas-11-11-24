@@ -62,7 +62,7 @@ const ImageSlider = () => {
           {/* Inner border */}
           <div className="border-8 border-white p-4 relative z-20">
             <h1 className="text-[clamp(24px,5vw,45px)] font-bold text-gray-900 p-4 text-shadow">
-              BRINGING EXCELLENCE
+              BEYOND EXPECTATIONS
             </h1>
             <h2 className="text-[clamp(24px,5vw,45px)] font-bold text-orange-500 text-shadow">
               BUILD YOUR DREAMS WITH US
