@@ -65,7 +65,7 @@ const ImageSlider = () => {
               BEYOND EXPECTATIONS
             </h1>
             <h2 className="text-[clamp(24px,5vw,45px)] font-bold text-orange-500 text-shadow">
-              BUILD YOUR DREAMS WITH US
+              We Turn Your Vision into Reality
             </h2>
           </div>
         </div>
