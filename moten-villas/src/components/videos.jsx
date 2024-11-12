@@ -3,6 +3,7 @@ import React from 'react';
 const VideoCards = () => {
   // Sample video URLs (replace with your own)
   const videos = [
+    "https://www.youtube.com/embed/n7TYDQJ0dOQ",
     "https://www.youtube.com/embed/D6pW5Li8bjU" , 
     "https://www.youtube.com/embed/lXsX_s_O3e4", 
     "https://www.youtube.com/embed/cbi7sT3mq1o" ,
