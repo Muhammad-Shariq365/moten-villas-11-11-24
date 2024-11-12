@@ -6,7 +6,17 @@ const VideoCards = () => {
     "https://www.youtube.com/embed/D6pW5Li8bjU" , 
     "https://www.youtube.com/embed/lXsX_s_O3e4", 
     "https://www.youtube.com/embed/cbi7sT3mq1o" ,
-    "https://www.youtube.com/embed/0MTuxWrbO00?si=o8fBBAy3FUB7SvdS" 
+    "https://www.youtube.com/embed/0MTuxWrbO00?si=o8fBBAy3FUB7SvdS" ,
+    "www.youtube.com/embed/PjhRwt2gXhM",
+    "https://www.youtube.com/embed/gN3PFj3wQIg",
+    "https://www.youtube.com/embed/3k5VVa1EXyk",
+    "https://www.youtube.com/embed/ERpvs6oH6E4",
+    "https://www.youtube.com/embed/2NyGqh6E4vI",
+    "https://youtube.com/shorts/60DmIlpL0n0?si=bxdXhCbFeeof8Myr",
+    "https://www.youtube.com/embed/0DyrRx-qSwA",
+    "https://www.youtube.com/embed/TMu2tmCVCLc",
+    "https://www.youtube.com/embed/40KY6aJaaI0"
+    
  
   ];
 
