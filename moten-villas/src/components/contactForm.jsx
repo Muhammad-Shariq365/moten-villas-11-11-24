@@ -83,7 +83,7 @@ const ContactForm = () => {
     <RiMailFill className="text-orange-500 w-8 h-8 my-auto" />
     <div>
       <p className="font-semibold text-gray-700 text-lg">Email:</p>
-      <p className="text-gray-600 text-base">motenvillas@gmail.com</p>
+      <p className="text-gray-600 text-base">motendevelopers@gmail.com</p>
     </div>
   </div>
 
