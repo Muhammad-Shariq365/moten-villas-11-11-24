@@ -53,7 +53,7 @@ It’s more than just a project; it’s a vision brought to life. At Moten Villa
 
           <div className="sm:ml-1 flex items-center justify-center text-clamp-sm mb-6 space-x-2 sm:justify-start">
             <span className="text-xl">✉️</span>
-            <p>motenvillas@gmail.com</p>
+            <p>motendevelopers@gmail.com</p>
           </div>
 
           {/* Social Media Icons */}
