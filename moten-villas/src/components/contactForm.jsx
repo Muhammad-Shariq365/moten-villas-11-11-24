@@ -52,9 +52,11 @@ const ContactForm = () => {
           whileInView="visible"
           variants={headingVariants}
         >
+            <div className="flex items-center justify-center">
           <div className="border-l-4 border-orange-500 h-10 mr-4"></div>
-          <h2 className="text-black uppercase text-[40px] font-bold text-center">Get in Touch</h2>
+          <h2 className="text-[clamp(2rem,5vw,3rem)] font-extrabold text-black uppercase">Client Reviews</h2>
           <div className="border-r-4 border-orange-500 h-10 ml-4"></div>
+        </div>
         </motion.div>
 
         <div className="flex flex-col lg:flex-row w-full justify-between items-stretch gap-10">
@@ -137,7 +139,9 @@ const ContactForm = () => {
                 {isClicked ? 'Sending...' : 'Send Message'}
               </button>
             </form>
-          </div>
+          </div>  <div className="border-l-4 border-orange-500 h-10 mr-4"></div>
+            <h2 className="text-black uppercase text-[40px] font-bold text-center my-4">OUR LOCATION</h2>
+            <div className="border-r-4 border-orange-500 h-10 ml-4"></div>
         </div>
 
         <div className="w-full">
@@ -146,9 +150,11 @@ const ContactForm = () => {
             whileInView="visible"
             variants={headingVariants}
           >
-            <div className="border-l-4 border-orange-500 h-10 mr-4"></div>
-            <h2 className="text-black uppercase text-[40px] font-bold text-center my-4">OUR LOCATION</h2>
-            <div className="border-r-4 border-orange-500 h-10 ml-4"></div>
+            <div className="flex items-center justify-center">
+          <div className="border-l-4 border-orange-500 h-10 mr-4"></div>
+          <h2 className="text-[clamp(2rem,5vw,3rem)] font-extld text-black uppercase">Our Location</h2>
+          <div className="border-r-4 border-orange-500 h-10 ml-4"></div>
+        </div>
           </motion.div>
           <div className="w-full">
             <div className="relative w-full h-[400px] sm:h-[300px] md:h-[500px]">
