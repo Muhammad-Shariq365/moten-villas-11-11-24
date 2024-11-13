@@ -1,70 +1,17 @@
 import React, { useState } from 'react';
+import AboutImage from "../assets/portfolioimg.jpg";
 import { Helmet } from 'react-helmet';
-import TestimonialsImage from "../assets/portfolioimg.jpg"; // Path to the "Testimonials" image
-import VideoCards from '../components/videoCards'; // Assuming you have a VideoCards component for displaying testimonials
+import VideoCards from '../components/videoCards';
 
-const Testimonials = () => {
+const About = () => {
   const [imageLoaded, setImageLoaded] = useState(false);
 
   return (
-    <div className="overflow-x-hidden">
-      {/* React Helmet for SEO */}
+    <div>
+      <div className="overflow-hidden ">
       <Helmet>
-        <title>Testimonials | Moten Villas - Builders & Developers in DHA Karachi</title>
-        <meta
-          name="description"
-          content="Read the testimonials from our satisfied clients at Moten Villas. We are the trusted builders and developers in DHA Karachi, specializing in residential and commercial projects."
-        />
-        <meta
-          name="keywords"
-          content="builders DHA Karachi, developers in DHA Karachi, client testimonials, real estate builders, construction services Karachi"
-        />
-        <meta
-          name="robots"
-          content="index, follow"
-        />
-        <meta
-          property="og:title"
-          content="Client Testimonials | Moten Villas - Trusted Builders in DHA Karachi"
-        />
-        <meta
-          property="og:description"
-          content="Discover what our clients have to say about Moten Villas, the leading builders and developers in DHA Karachi."
-        />
-        <meta
-          property="og:image"
-          content="https://i.postimg.cc/8Cz0Gmd5/Moten-Villas.png" // Replace with the relevant image URL
-        />
-        <meta
-          property="og:url"
-          content="https://motenvillas.com/testimonials"
-        />
-        <meta
-          property="og:type"
-          content="website"
-        />
-        <meta
-          name="twitter:card"
-          content="summary_large_image"
-        />
-        <meta
-          name="twitter:title"
-          content="Client Testimonials | Moten Villas"
-        />
-        <meta
-          name="twitter:description"
-          content="Read client testimonials about Moten Villas, the leading construction company in DHA Karachi."
-        />
-        <meta
-          name="twitter:image"
-          content="https://i.postimg.cc/8Cz0Gmd5/Moten-Villas.png" // Replace with the image URL for Twitter
-        />
-        <link rel="canonical" href="https://motenvillas.com/testimonials" />
-        {/* Preload Image for Performance */}
-        <link rel="preload" href={TestimonialsImage} as="image" />
+        <link rel="preload" href={AboutImage} as="image" />
       </Helmet>
-
-      {/* Hero Section */}
       <div className="relative w-screen h-[40vh] sm:h-[70vh] object-cover bg-gray-200">
         {!imageLoaded && (
           <div className="absolute inset-0 flex justify-center items-center">
@@ -73,8 +20,8 @@ const Testimonials = () => {
         )}
 
         <img
-          src={TestimonialsImage}
-          alt="Testimonials"
+          src={AboutImage}
+          alt="About Us"
           loading="lazy"
           onLoad={() => setImageLoaded(true)}
           className={`w-full h-full object-cover transition-opacity duration-1000 ${imageLoaded ? 'animate-zoomIn' : 'opacity-0'}`}
@@ -134,16 +81,12 @@ const Testimonials = () => {
           }
         `}</style>
       </div>
+    
 
-      {/* Video Testimonials or Portfolio Cards */}
-      <section className="py-12">
-        <div className="container mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-8">What Our Clients Are Saying</h2>
-          <VideoCards /> {/* Assuming you have a VideoCards component that will display client testimonials */}
-        </div>
-      </section>
+    </div>
+   <VideoCards/>
     </div>
   );
 };
 
-export default Testimonials;
+export default About;
