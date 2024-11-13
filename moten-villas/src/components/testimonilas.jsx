@@ -3,7 +3,7 @@ import AboutImage from "../assets/portfolioimg.jpg";
 import { Helmet } from 'react-helmet';
 import VideoCards from '../components/videoCards';
 
-const About = () => {
+const Testimonials = () => {
   const [imageLoaded, setImageLoaded] = useState(false);
 
   return (
@@ -21,7 +21,7 @@ const About = () => {
 
         <img
           src={AboutImage}
-          alt="About Us"
+          alt="Testimonials"
           loading="lazy"
           onLoad={() => setImageLoaded(true)}
           className={`w-full h-full object-cover transition-opacity duration-1000 ${imageLoaded ? 'animate-zoomIn' : 'opacity-0'}`}
@@ -89,4 +89,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Testimonials;
