@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import PortfolioCard from "../components/protfolioCard"; // Assuming you have a PortfolioCard component
 import { Link } from 'react-router-dom'; // If you're using React Router for navigation
-import PortfolioImage from '../assets/portfolio.jpg'; // Example image for the portfolio section
+import PortfolioImage from '../assets/portfolioimg.jpg'; // Example image for the portfolio section
 import Services from '../components/services'; // Services Component (if you have one)
 
 const Portfolio = () => {
