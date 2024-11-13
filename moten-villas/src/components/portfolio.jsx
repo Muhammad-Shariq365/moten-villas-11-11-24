@@ -4,7 +4,7 @@ import ProtfolioImg from "../assets/banglow3.jpg";
 import Ourwork from "./ourwork"
 import { Helmet } from 'react-helmet';
 
-const About = () => {
+const Portfolio = () => {
   const [imageLoaded, setImageLoaded] = useState(false);
 
   return (
@@ -21,7 +21,7 @@ const About = () => {
 
         <img
           src={ProtfolioImg}
-          alt="About Us"
+          alt="Portfolio"
           loading="lazy"
           onLoad={() => setImageLoaded(true)}
           className={`w-full h-full ${imageLoaded ? 'animate-zoomIn' : 'opacity-0'} transition-opacity duration-1000`}
@@ -87,4 +87,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Portfolio;
