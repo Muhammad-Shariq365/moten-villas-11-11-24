@@ -1,0 +1,10 @@
+# Allow all bots to access everything
+User-agent: *
+Disallow:
+
+# Allow Googlebot to crawl everything, but specify a sitemap
+User-agent: Googlebot
+Disallow:
+
+# Googlebot’s specific crawl instructions (optional)
+Sitemap: https://motenvillas.com/sitemap_index.xml
