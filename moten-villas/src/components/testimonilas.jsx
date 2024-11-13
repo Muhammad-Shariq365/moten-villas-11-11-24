@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import AboutImage from "../assets/portfolioimg.jpg";
+import TestimonialsImage from "../assets/portfolioimg.jpg";
 import { Helmet } from 'react-helmet';
 import VideoCards from '../components/videoCards';
 
@@ -10,7 +10,7 @@ const Testimonials = () => {
     <div>
       <div className="overflow-hidden ">
       <Helmet>
-        <link rel="preload" href={AboutImage} as="image" />
+        <link rel="preload" href={TestimonialsImage} as="image" />
       </Helmet>
       <div className="relative w-screen h-[40vh] sm:h-[70vh] object-cover bg-gray-200">
         {!imageLoaded && (
@@ -20,7 +20,7 @@ const Testimonials = () => {
         )}
 
         <img
-          src={AboutImage}
+          src={TestimonialsImage}
           alt="Testimonials"
           loading="lazy"
           onLoad={() => setImageLoaded(true)}
