@@ -98,7 +98,7 @@ const Portfolio = () => {
         whileInView="visible"
         variants={headingVariants}
       >
-        <div className="flex items-center justify-center mt-4 mb-12">
+        <div className="flex items-center justify-center  mt-12 sm:mt-4 mb-12">
           <div className="border-l-4 border-orange-500 h-10 mr-4"></div>
           <h2 className="text-black uppercase font-bold text-center">OUR WORK</h2>
           <div className="border-r-4 border-orange-500 h-10 ml-4"></div>
