@@ -10,7 +10,7 @@ const headingVariants = {
 const VideoCards = () => {
   return (
  <div>
-     <section className="text-center mt-12 ">
+     <section className="text-center my-12 ">
       <motion.div
         initial="hidden"
         whileInView="visible"
