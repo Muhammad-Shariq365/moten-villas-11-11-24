@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import TestimonialsImage from "../assets/Testimonialsimg.jpg";
 import { Helmet } from 'react-helmet';
 import VideoCards from '../components/videoCards';
 
 const Testimonials = () => {
   const [imageLoaded, setImageLoaded] = useState(false);
+  const TestimonialsImage = "https://i.imgur.com/HI0VpQ3.jpg";
 
   return (
     <div>
