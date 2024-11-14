@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 import ProtfolioCard from "./protfolioCard";
-import ProtfolioImg from "../assets/banglow3.jpg";
 import Ourwork from "./ourwork"
 import { Helmet } from 'react-helmet';
 
-const About = () => {
+const Portfolio = () => {
   const [imageLoaded, setImageLoaded] = useState(false);
+  const PortfolioImg = "https://i.postimg.cc/B6v06LFZ/IMG-8821-11zon.jpg";
 
   return (
     <div className="overflow-x-hidden mb-24">
       <Helmet>
-        <link rel="preload" href={ProtfolioImg} as="image" />
+        <link rel="preload" href={PortfolioImg} as="image" />
       </Helmet>
       <div className="relative w-screen h-[40vh] sm:h-[70vh] object-cover bg-gray-200">
         {!imageLoaded && (
@@ -20,8 +20,8 @@ const About = () => {
         )}
 
         <img
-          src={ProtfolioImg}
-          alt="About Us"
+          src={PortfolioImg}
+          alt="Portfolio"
           loading="lazy"
           onLoad={() => setImageLoaded(true)}
           className={`w-full h-full ${imageLoaded ? 'animate-zoomIn' : 'opacity-0'} transition-opacity duration-1000`}
@@ -87,4 +87,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Portfolio;
