@@ -52,9 +52,11 @@ const ContactForm = () => {
           whileInView="visible"
           variants={headingVariants}
         >
+          
           <div className="border-l-4 border-orange-500 h-10 mr-4"></div>
-          <h2 className="text-black uppercase text-[40px] font-bold text-center">Get in Touch</h2>
+          <h2 className="text-[clamp(2rem,5vw,3rem)] font-extrabold text-black uppercase">GET IN TOUCH</h2>
           <div className="border-r-4 border-orange-500 h-10 ml-4"></div>
+          
         </motion.div>
 
         <div className="flex flex-col lg:flex-row w-full justify-between items-stretch gap-10">
