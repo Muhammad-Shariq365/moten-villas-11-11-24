@@ -146,9 +146,11 @@ const ContactForm = () => {
             whileInView="visible"
             variants={headingVariants}
           >
+          
             <div className="border-l-4 border-orange-500 h-10 mr-4"></div>
-            <h2 className="text-black uppercase text-[40px] font-bold text-center my-4">OUR LOCATION</h2>
-            <div className="border-r-4 border-orange-500 h-10 ml-4"></div>
+          <h2 className="text-[clamp(2rem,5vw,3rem)] font-extrabold text-black uppercase">OUR LOCATION</h2>
+          <div className="border-r-4 border-orange-500 h-10 ml-4"></div>
+          
           </motion.div>
           <div className="w-full">
             <div className="relative w-full h-[400px] sm:h-[300px] md:h-[500px]">
