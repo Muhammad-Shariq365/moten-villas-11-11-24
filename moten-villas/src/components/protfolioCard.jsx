@@ -22,7 +22,7 @@ const AboutCard = () => {
   </div>
 
   {/* Original iframe styling for large screens */}
-  <div className=" hidden lg:block relative h-[400px]">
+  <div className=" hidden lg:block relative ">
     <iframe
       width="560"
       height="315"
