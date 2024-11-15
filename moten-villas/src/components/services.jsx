@@ -16,18 +16,17 @@ const Services = () => {
       <div className="container mx-auto px-4">
         
         {/* Animated "OUR SERVICES" Heading */}
-        <motion.h2
-          className="text-[clamp(2rem,5vw,3rem)] font-extrabold text-center text-gray-800"
-          initial="hidden"
-          whileInView="visible"
-          variants={headingVariants}
-        >
-          <div className="flex  justify-center">
-       <div className="border-l-4 border-orange-500 h-10 mr-4"></div>
-          <h2 className="text-[clamp(2rem,5vw,3rem)] font-extrabold text-black uppercase">OUR SERVICES</h2>
+          <motion.div
+        initial="hidden"
+        whileInView="visible"
+        variants={headingVariants}
+      >
+        <div className="flex items-center justify-center">
+          <div className="border-l-4 border-orange-500 h-10 mr-4"></div>
+          <h2 className="text-[clamp(2rem,5vw,3rem)] font-extrabold text-black uppercase">Client Reviews</h2>
           <div className="border-r-4 border-orange-500 h-10 ml-4"></div>
-          </div>
-        </motion.h2>
+        </div>
+      </motion.div>
 
         {/* Service Cards */}
         <motion.div
