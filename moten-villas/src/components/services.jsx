@@ -13,13 +13,14 @@ const Services = () => {
 
   return (
     <div id="services" className=" overflow-hidden">
-      <div className="container mx-auto px-4 my-12">
+      <div className="container mx-auto px-4 ">
         
         {/* Animated "OUR SERVICES" Heading */}
           <motion.div
         initial="hidden"
         whileInView="visible"
         variants={headingVariants}
+         className="my-12"   
       >
         <div className="flex items-center justify-center">
           <div className="border-l-4 border-orange-500 h-10 mr-4"></div>
