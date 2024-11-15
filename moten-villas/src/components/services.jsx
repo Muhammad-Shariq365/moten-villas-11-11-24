@@ -12,7 +12,7 @@ const Services = () => {
   };
 
   return (
-    <div id="services" className="my-12">
+    <div id="services" className="my-12 overflow-hidden">
       <div className="container mx-auto px-4">
         
         {/* Animated "OUR SERVICES" Heading */}
