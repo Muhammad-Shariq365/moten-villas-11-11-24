@@ -9,7 +9,7 @@ const AboutCard = () => {
         {/* YouTube Video Embed */}
         <div className="relative w-full lg:w-1/2 overflow-hidden ">
   {/* Aspect ratio wrapper for small screens */}
-  <div>
+  <div className = "mb-10">
     <iframe
       src="https://www.youtube.com/embed/bSYkAw3bN2c?si=jE4Ryu0AdKw30m4K"
       title="YouTube video player"
