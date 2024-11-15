@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet';
 
 const Portfolio = () => {
   const [imageLoaded, setImageLoaded] = useState(false);
-  const PortfolioImg = "https://i.postimg.cc/B6v06LFZ/IMG-8821-11zon.jpg";
+  const PortfolioImg = "https://i.postimg.cc/kMTNgN3x/rsz-c94a10fc-ae47-4281-b6d4-2f10ca0c3ddc.jpg";
 
   return (
     <div className="overflow-x-hidden mb-24">
