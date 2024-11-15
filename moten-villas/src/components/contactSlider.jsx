@@ -72,7 +72,9 @@ const ContactForm = () => {
           </div>
 
           <p className="flex items-center text-sm lg:text-base">
-            <FaPhoneAlt className="w-5 h-5 mr-4 text-gray-600" />
+              <div>
+            <FaPhoneAlt className="w-6 h-6 sm:w-5 sm:h-5 mr-4 text-gray-600" />
+            </div>
             Call us on 0320-8271405 || 0320-8271406
           </p>
 
