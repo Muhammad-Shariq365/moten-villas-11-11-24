@@ -44,7 +44,7 @@ const Services = () => {
             {allservices.map((item) => (
               <motion.div
                 key={item.id}
-                className="service-card flex justify-center items-start transition-transform duration-300 ease-in-out hover:shadow-xl mt-5 sm:mt-10 hover:scale-105"
+                className="service-card flex justify-center items-start transition-transform duration-300 ease-in-out hover:shadow-xl  hover:scale-105"
               >
                 <div className="service-card-inner">
                   {/* Front of the card */}
