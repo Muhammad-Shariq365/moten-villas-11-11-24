@@ -5,7 +5,7 @@ import { allservices } from '../css-components/export';
 import '../css-components/services.css';
 
 const Services = () => {
-  // Reusing headingVariants from PortfolioSection
+  
   const headingVariants = {
     hidden: { opacity: 0, y: -50 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.8 } }
