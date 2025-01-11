@@ -166,7 +166,7 @@ const AnimatedImages = () => {
         <div className="relative mt-12 h-auto w-screen sm:w-auto sm:h-[80vh] object-cover overflow-hidden shadow-lg border border-gray-300 rounded-lg video-container visible">
           <iframe
             className="player w-full h-[100%] object-cover  border-none"
-            src="https://www.youtube.com/embed/cXsGdRjXeRk?si=VdEwLBPF3bbjSegJ"
+            src="https://www.youtube.com/embed/3fg07ANuWws?si=TovWREkcBsTicPZG"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; fullscreen; web-share"
